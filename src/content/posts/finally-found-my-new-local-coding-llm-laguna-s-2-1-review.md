@@ -57,10 +57,11 @@ Here's my exact launch configuration and what each parameter does:
 "$SERVER_BIN" \
     -m "$MODEL_FILE" \
     --chat-template-file "$CHAT_TEMPLATE_FILE" \
-    -c 100000 \
+    -c 110000 \
     --flash-attn on \
-    --threads 8 \
+    --threads 12 \
     --n-gpu-layers 999 \
+    --no-mmap \
     --n-cpu-moe 32 \
     --parallel 1 \
     -b 4096 \
