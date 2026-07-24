@@ -35,13 +35,13 @@ With **Qwen 3.6 27B**, the problem is that it never checks its work. I give it a
 
 **Laguna S 2.1 is different.** I give it a task and some tools available (search, context7, etc.), and without me explicitly asking or putting instructions in AGENTS.md, it automatically does extensive research. It looks up current library docs, checks versions, examines the codebase, and only then proposes changes. This happens by default - no nagging required.
 
-I'm currently running the **Q4_K_M GGUF** quantization, which is surprisingly good for a 118B model. (For reference, Qwen requires Q6_K which is more resource-intensive.)
+I'm currently running the **Q4_K_M GGUF** quantization, which is surprisingly good for a 118B model. (For reference, I run Qwen Q6_K which is more resource-intensive.)
 
 ## My Hardware Setup
 
 Here's what I'm running Laguna on:
 
-- **GPU:** RTX 5090 (24GB VRAM)
+- **GPU:** RTX 5090 (32GB VRAM)
 - **System RAM:** 64 GB DDR4
 - **CPU:** Ryzen 7 5700X
 - **Context:** 100k tokens (can go higher with config changes)
