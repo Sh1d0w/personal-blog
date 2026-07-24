@@ -16,4 +16,4 @@ This blog is where I share useful information about running open-source LLMs loc
 
 ## Let's connect
 
-You can reach me on [GitHub](https://github.com/sh1d0w) or via [email](mailto:sh1d0w@sh1d0w.com). I'm always happy to discuss interesting projects or collaborate on open-source initiatives.
+You can reach me on [GitHub](https://github.com/Sh1d0w) or on [X](https://x.com/Sh1d0wx). I'm always happy to discuss interesting projects or collaborate on open-source initiatives.
